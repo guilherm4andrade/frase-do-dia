@@ -1,0 +1,33 @@
+name: Frase do Dia
+
+on:
+  schedule:
+    # 00:00 America/Sao_Paulo (UTC-3) = 03:00 UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rodar atualização
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          BLOCK_ID: ${{ secrets.BLOCK_ID }}
+        run: python update_frase.py
+
+      - name: Commit estado (anti-repetição)
+        run: |
+          git config user.name "nemesis-bot"
+          git config user.email "nemesis-bot@users.noreply.github.com"
+          git add last_index.txt
+          git diff --staged --quiet || git commit -m "chore: atualiza última frase"
+          git push
