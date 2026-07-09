@@ -72,7 +72,7 @@ def main():
 
     generate(quote["frase"], quote["fonte"], IMAGE_OUTPUT_PATH)
 
-    cache_key = datetime.date.today().isoformat()
+    cache_key = datetime.datetime.utcnow().strftime("%Y%m%d%H%M%S")
     payload = build_payload(cache_key)
 
     try:
