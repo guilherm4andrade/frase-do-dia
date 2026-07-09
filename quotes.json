@@ -1,20 +1,1006 @@
 [
-  {"fonte": "Fight Club (1999)", "frase": "As coisas que você possui acabam possuindo você."},
-  {"fonte": "O Poderoso Chefão (1972)", "frase": "Mantenha seus amigos por perto, e seus inimigos mais perto ainda."},
-  {"fonte": "Duna (Frank Herbert)", "frase": "O medo é o assassino da mente."},
-  {"fonte": "Rocky Balboa (2006)", "frase": "Ninguém vai te bater tão forte quanto a vida."},
-  {"fonte": "Breaking Bad (2008)", "frase": "Eu não corro perigo. Eu sou o perigo."},
-  {"fonte": "Gladiador (2000)", "frase": "O que fazemos em vida ecoa na eternidade."},
-  {"fonte": "O Senhor dos Anéis (Tolkien)", "frase": "Nem tudo que é ouro reluz."},
-  {"fonte": "Sun Tzu - A Arte da Guerra", "frase": "Conheça o inimigo e conheça a si mesmo."},
-  {"fonte": "Batman Begins (2005)", "frase": "Não é quem eu sou por dentro, mas o que eu faço que me define."},
-  {"fonte": "Marco Aurélio - Meditações", "frase": "Você tem poder sobre sua mente, não sobre eventos externos."},
-  {"fonte": "Vikings (2013)", "frase": "Não temos medo do amanhã, porque vivemos hoje."},
-  {"fonte": "Whiplash (2014)", "frase": "Não existem palavras mais nocivas que 'bom trabalho'."},
-  {"fonte": "1984 (George Orwell)", "frase": "A liberdade é a liberdade de dizer que dois mais dois são quatro."},
-  {"fonte": "O Lobo de Wall Street (2013)", "frase": "A única coisa que fica no caminho é você mesmo."},
-  {"fonte": "Peaky Blinders (2013)", "frase": "Não sou eu quem escolhe o caminho, é o caminho que me escolhe."},
-  {"fonte": "Sêneca - Cartas a Lucílio", "frase": "Não é porque as coisas são difíceis que não ousamos."},
-  {"fonte": "Interestelar (2014)", "frase": "Não vamos silenciosamente aceitar a morte."},
-  {"fonte": "300 (2006)", "frase": "A liberdade não é de graça."}
+  {
+    "fonte": "Fight Club (1999)",
+    "frase": "As coisas que você possui acabam possuindo você."
+  },
+  {
+    "fonte": "O Poderoso Chefão (1972)",
+    "frase": "Mantenha seus amigos por perto, e seus inimigos mais perto ainda."
+  },
+  {
+    "fonte": "Duna (Frank Herbert)",
+    "frase": "O medo é o assassino da mente."
+  },
+  {
+    "fonte": "Rocky Balboa (2006)",
+    "frase": "Ninguém vai te bater tão forte quanto a vida."
+  },
+  {
+    "fonte": "Breaking Bad (2008)",
+    "frase": "Eu não corro perigo. Eu sou o perigo."
+  },
+  {
+    "fonte": "Gladiador (2000)",
+    "frase": "O que fazemos em vida ecoa na eternidade."
+  },
+  {
+    "fonte": "O Senhor dos Anéis (Tolkien)",
+    "frase": "Nem tudo que é ouro reluz."
+  },
+  {
+    "fonte": "Sun Tzu - A Arte da Guerra",
+    "frase": "Conheça o inimigo e conheça a si mesmo."
+  },
+  {
+    "fonte": "Batman Begins (2005)",
+    "frase": "Não é quem eu sou por dentro, mas o que eu faço que me define."
+  },
+  {
+    "fonte": "Marco Aurélio - Meditações",
+    "frase": "Você tem poder sobre sua mente, não sobre eventos externos."
+  },
+  {
+    "fonte": "Whiplash (2014)",
+    "frase": "Não existem palavras mais nocivas que 'bom trabalho'."
+  },
+  {
+    "fonte": "1984 (George Orwell)",
+    "frase": "A liberdade é a liberdade de dizer que dois mais dois são quatro."
+  },
+  {
+    "fonte": "O Lobo de Wall Street (2013)",
+    "frase": "A única coisa que fica no caminho é você mesmo."
+  },
+  {
+    "fonte": "Sêneca - Cartas a Lucílio",
+    "frase": "Não é porque as coisas são difíceis que não ousamos."
+  },
+  {
+    "fonte": "Interestelar (2014)",
+    "frase": "Não vamos silenciosamente aceitar a morte."
+  },
+  {
+    "fonte": "300 (2006)",
+    "frase": "A liberdade não é de graça."
+  },
+  {
+    "fonte": "Peaky Blinders",
+    "frase": "Não sou eu quem escolhe o caminho, é o caminho que me escolhe."
+  },
+  {
+    "fonte": "Peaky Blinders",
+    "frase": "Ordem, sempre. Caos é para quem não tem plano."
+  },
+  {
+    "fonte": "Peaky Blinders",
+    "frase": "Cada homem tem um preço, o segredo é nunca revelar o seu."
+  },
+  {
+    "fonte": "Vikings",
+    "frase": "Não temos medo do amanhã, porque vivemos hoje."
+  },
+  {
+    "fonte": "Vikings",
+    "frase": "Os deuses não perdoam os fracos, só os corajosos."
+  },
+  {
+    "fonte": "Vikings",
+    "frase": "Um homem só morre de verdade quando é esquecido."
+  },
+  {
+    "fonte": "The Last Kingdom",
+    "frase": "O destino é tudo."
+  },
+  {
+    "fonte": "The Last Kingdom",
+    "frase": "Um homem deve escolher: servir ou comandar."
+  },
+  {
+    "fonte": "The Last Kingdom",
+    "frase": "A sorte favorece quem age, não quem espera."
+  },
+  {
+    "fonte": "Game of Thrones",
+    "frase": "O caos não é um abismo, é uma escada."
+  },
+  {
+    "fonte": "Game of Thrones",
+    "frase": "Tudo que vem antes do agora é apenas prólogo."
+  },
+  {
+    "fonte": "Game of Thrones",
+    "frase": "Quando você joga o jogo dos tronos, ganha ou morre."
+  },
+  {
+    "fonte": "Transformers (2007)",
+    "frase": "Liberdade é o direito de todo ser consciente."
+  },
+  {
+    "fonte": "Transformers: A Era da Extinção (2014)",
+    "frase": "As melhores partes de nós ainda não foram escritas."
+  },
+  {
+    "fonte": "300 (2006)",
+    "frase": "Esta noite jantaremos no inferno."
+  },
+  {
+    "fonte": "Coringa (2019)",
+    "frase": "O pior de ter uma doença mental é as pessoas esperarem que você aja como se não tivesse."
+  },
+  {
+    "fonte": "John Wick (2014)",
+    "frase": "As pessoas continuam a me perguntar se eu voltei. E eu continuo dizendo que não."
+  },
+  {
+    "fonte": "Invictus (Nelson Mandela)",
+    "frase": "Eu sou o mestre do meu destino, o capitão da minha alma."
+  },
+  {
+    "fonte": "Rocky IV (1985)",
+    "frase": "Se eu posso mudar, e você pode mudar, todos podem mudar."
+  },
+  {
+    "fonte": "Star Wars - O Império Contra-Ataca",
+    "frase": "Não tente. Faça, ou não faça. Tentativa não existe."
+  },
+  {
+    "fonte": "Homem de Ferro (2008)",
+    "frase": "Eu sou o Homem de Ferro. A verdade é que sempre fui eu."
+  },
+  {
+    "fonte": "The Wire",
+    "frase": "Você não pode andar por aí pensando que o mundo te deve algo."
+  },
+  {
+    "fonte": "Narcos",
+    "frase": "Todo império começa com um único homem tomando uma decisão."
+  },
+  {
+    "fonte": "Sons of Anarchy",
+    "frase": "A lealdade é a única moeda que realmente vale algo."
+  },
+  {
+    "fonte": "Spartacus",
+    "frase": "Um homem escolhe. Um escravo obedece."
+  },
+  {
+    "fonte": "Jocko Willink - Extreme Ownership",
+    "frase": "Disciplina é igual a liberdade."
+  },
+  {
+    "fonte": "David Goggins - Can't Hurt Me",
+    "frase": "Você não vai conhecer seus limites até se confrontar."
+  },
+  {
+    "fonte": "Napoleão Bonaparte",
+    "frase": "Um líder é um negociante de esperança."
+  },
+  {
+    "fonte": "Friedrich Nietzsche",
+    "frase": "Aquilo que não me mata me fortalece."
+  },
+  {
+    "fonte": "Bruce Lee",
+    "frase": "Não tema o homem que treinou dez mil chutes uma vez."
+  },
+  {
+    "fonte": "Sun Tzu - A Arte da Guerra",
+    "frase": "Toda guerra se baseia em engano."
+  },
+  {
+    "fonte": "Maquiavel - O Príncipe",
+    "frase": "É melhor ser temido do que amado, se não puder ser ambos."
+  },
+  {
+    "fonte": "Winston Churchill",
+    "frase": "O sucesso é ir de fracasso em fracasso sem perder entusiasmo."
+  },
+  {
+    "fonte": "Marco Aurélio - Meditações",
+    "frase": "O obstáculo no caminho se torna o caminho."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Disciplina é a ponte entre metas e resultados."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O inimigo mais perigoso mora nas suas desculpas."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Quem treina o corpo, forja a mente."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Ação vence perfeição todos os dias."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Conforto é o primeiro sinal de estagnação."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Você não sobe de nível sem sair da zona segura."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O silêncio é a arma dos que planejam."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Foco é dizer não para tudo, menos ao essencial."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Cada manhã é um novo campo de batalha."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Fraqueza mental se treina como músculo."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Rotina não é prisão, é armadura."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Quem não decide, é decidido pelos outros."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "A dor de hoje é o escudo de amanhã."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Excelência não é ato, é hábito repetido sem plateia."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O caos externo se vence com ordem interna."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Cansaço mente. Disciplina não escuta."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Você é o resultado do que tolera repetidamente."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Sacrifício silencioso pesa mais que discurso."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Constância vence talento desorganizado."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Todo império mental começa com uma decisão sozinha."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Não negocie com a preguiça, elimine-a."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O espelho não mente, só o ego distorce."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Coragem não é ausência de medo, é ação apesar dele."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Cada distração aceita é terreno cedido ao inimigo."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Você não encontra motivação, você constrói disciplina."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O fraco espera condições ideais. O forte cria as próprias."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Ninguém constrói legado dormindo até tarde."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "A mente treinada não pede permissão para agir."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Padrões baixos geram resultados baixos."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Sofrimento com propósito é combustível, não peso."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Cada 'não' a uma tentação é um 'sim' ao objetivo."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Você não é a sua última falha, é sua próxima ação."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Guerreiros não reclamam do campo de batalha, dominam."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O tempo perdido hoje cobra juros amanhã."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Clareza de propósito corta qualquer desculpa."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Repetição transforma esforço em instinto."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Ninguém admira quem só fala sobre disciplina."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "A zona de conforto é confortável porque está vazia de crescimento."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Você constrói caráter nas escolhas que ninguém vê."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Vontade fraca busca atalho. Mente forte constrói caminho."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Honra não se explica, se demonstra."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A palavra dada vale mais que qualquer contrato."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Homem de honra cumpre mesmo quando ninguém cobra."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Trair a própria palavra é a primeira derrota."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Honra se mede pelo que você faz na escuridão."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Quem não honra os pequenos acordos, não merece os grandes."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A reputação leva anos para construir e segundos para perder."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Um homem sem honra é um exército sem bandeira."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Honrar o compromisso é a forma mais alta de força."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A verdadeira honra não pede plateia."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Quem trai por conveniência, trairá de novo por conforto."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Honra é fazer o certo quando o errado é mais fácil."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Não existe honra parcial, ou você tem, ou não tem."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "O caráter se revela quando a recompensa não é vista."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Manter a palavra é o primeiro tijolo do respeito."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Respeito se conquista em silêncio, nunca se exige aos gritos."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Quem não respeita a si mesmo, não sabe respeitar ninguém."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O respeito começa na forma como você trata quem não pode te retribuir nada."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Antigamente, o aperto de mão valia mais que a assinatura de hoje."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Respeitar o adversário é reconhecer sua própria força."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Educação é a linguagem universal do respeito."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Quem humilha o fraco revela sua própria fraqueza."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O respeito ao mais velho é respeito à sabedoria acumulada."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Trate o servo como trataria o rei, e será reconhecido como líder."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O respeito não se herda, se constrói dia após dia."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Falar mal de quem não está presente é a covardia mais antiga."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Grandeza é tratar todos com a mesma dignidade."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Quem não sabe perder o controle, não sabe liderar."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O respeito próprio é o primeiro degrau para qualquer conquista."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Nunca se esqueça de onde veio ao decidir para onde vai."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A vida recompensa quem age, não quem espera."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Ninguém sai vivo, então viva com propósito."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "O tempo não negocia prazo com ninguém."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Viver com medo é morrer antes da hora."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A vida não é sobre esperar a tempestade passar, é aprender a dançar na chuva."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Cada dia desperdiçado é um dia que não volta."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A vida é curta demais para viver pequena."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Quem vive de arrependimentos, morre duas vezes."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "O sentido da vida se constrói, não se encontra pronto."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Viver intensamente é a única resposta contra o tempo."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A vida cobra de quem hesita e recompensa quem decide."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Não é a duração da vida que importa, é a intensidade."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Cada cicatriz é prova de que você continuou."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A vida não espera você estar pronto."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Existir é fácil, viver com propósito é raro."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O protocolo não é regra, é liberdade disfarçada de disciplina."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Cada execução no protocolo é um tijolo do seu império."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Sem protocolo, todo esforço vira caos disperso."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O protocolo existe para os dias em que a vontade falha."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Quem segue o protocolo nos dias ruins, vence nos dias decisivos."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O sistema não falha, quem falha é quem o abandona."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Protocolo é a ponte entre intenção e resultado."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "A consistência do protocolo vale mais que a intensidade de um dia."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Todo grande resultado nasceu de um pequeno protocolo repetido."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O protocolo transforma motivação passageira em disciplina permanente."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Execute o protocolo mesmo sem vontade — é aí que ele vale mais."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O protocolo é o mapa, a disciplina é o combustível."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Sem estrutura, até o guerreiro mais forte se perde."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O protocolo de hoje é o resultado de amanhã."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Confiar no processo é a marca de quem já venceu antes."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Os antigos sabiam: palavra empenhada era lei."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Antigamente, o silêncio valia mais que mil justificativas."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O guerreiro antigo temia a desonra mais que a morte."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A hospitalidade era sagrada, e a traição, imperdoável."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Os códigos antigos puniam a covardia mais que a derrota."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Um homem era medido pela sua lealdade ao clã."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A disciplina espartana não nascia da força, nascia da mente."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Os estoicos ensinavam: controle o que depende de você, o resto solte."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Nos velhos tempos, a preguiça era vista como traição ao próprio destino."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O guerreiro antigo se preparava em tempos de paz para vencer em tempos de guerra."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Antigamente, o mais forte protegia o mais fraco, não o oprimia."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A honra de um clã pesava mais que a vida de um homem só."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Os anciãos ensinavam pelo exemplo, nunca pelo discurso."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O juramento antigo não tinha cláusula de saída."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A lealdade cega ao clã era a maior virtude e o maior risco."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Coragem não é a ausência do medo, é agir apesar dele."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "O covarde morre mil vezes, o corajoso apenas uma."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Encarar o problema de frente é metade da vitória."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A coragem de começar já separa você da maioria."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Recuar da luta certa é a pior das derrotas."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "O medo mente sobre o tamanho do obstáculo."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Coragem é dar o próximo passo mesmo sem ver o caminho todo."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Quem nunca arriscou, nunca soube do que era capaz."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A coragem verdadeira é silenciosa, não precisa de aplausos."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Enfrente o que teme, e ele perde o poder sobre você."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Sabedoria é saber quando falar e quando calar."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "O sábio aprende com o erro alheio, o tolo nem com o próprio."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Conhecimento sem ação é apenas teoria vazia."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A verdadeira sabedoria começa reconhecendo o que você não sabe."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Paciência é a sabedoria de quem entende o tempo certo das coisas."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Escute mais do que fala, e aprenderá o dobro."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A experiência é o único mestre que não mente."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Sabedoria é agir com calma quando tudo pede pressa."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Quem se conhece, não precisa da aprovação de ninguém."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A dúvida bem colocada vale mais que a certeza apressada."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Lealdade não se mede na vitória, se mede na queda."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Quem é leal na dificuldade, é aliado de verdade."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Lealdade cega é fraqueza, lealdade consciente é força."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Fique perto de quem soma, longe de quem drena."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A lealdade verdadeira sobrevive à ausência de recompensa."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Poucos são leais quando não há plateia assistindo."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "A confiança demora anos para construir, segundos para quebrar."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Lealdade não é obediência cega, é compromisso com a verdade."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Justiça sem força é impotente, força sem justiça é tirania."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O justo não teme julgamento, teme a própria consciência."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Fazer o certo custa caro, mas o errado custa mais."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A justiça começa em como você trata quem discorda de você."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Um líder justo é mais temido que um líder cruel."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A verdadeira justiça não escolhe lado, escolhe o certo."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Liderar é ir primeiro, não mandar por último."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O verdadeiro líder carrega o peso que ninguém vê."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Comandar a si mesmo é o primeiro passo para comandar qualquer coisa."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Um líder constrói outros líderes, não seguidores."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "A liderança se prova na crise, não na calmaria."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Quem lidera pelo medo, perde no primeiro sinal de fraqueza."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Exemplo lidera, discurso apenas ecoa."
+  },
+  {
+    "fonte": "Sun Tzu - A Arte da Guerra",
+    "frase": "Vencer sem lutar é a arte suprema."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Todo guerreiro sábio escolhe suas batalhas."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Prepare-se na paz para não implorar na guerra."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "A estratégia vence onde a força sozinha falha."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Conhecer o próprio limite é a primeira vitória de qualquer guerra."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Quem se apressa no ataque, se descuida da defesa."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "O destino favorece quem se prepara em silêncio."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Você não controla o vento, mas controla a vela."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Destino é a soma das decisões que você tomou sozinho."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Ninguém escreve seu destino observando os outros viverem."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "O acaso favorece a mente preparada."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O legado se constrói nas ações que sobrevivem à sua ausência."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Um homem se mede pelo que deixa, não pelo que acumula."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Honrar a família é honrar quem veio antes de você."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "O que você tolera hoje, ensina à próxima geração amanhã."
+  },
+  {
+    "fonte": "Valores Antigos",
+    "frase": "Proteger os seus é o dever mais antigo que existe."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Disciplina forjada na dor vale mais que motivação nascida no conforto."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O corpo obedece a mente treinada, não a vontade do momento."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Repita o certo até que se torne instinto, não escolha."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "A disciplina é o único atalho real que existe."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Quem controla o próprio corpo, controla a própria mente."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Acordar cedo é a primeira vitória do dia."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O treino duro no silêncio antecede a vitória pública."
+  },
+  {
+    "fonte": "Filosofia Oriental",
+    "frase": "A água não luta contra a pedra, ela contorna e vence pelo tempo."
+  },
+  {
+    "fonte": "Filosofia Oriental",
+    "frase": "O bambu que se dobra no vento não quebra."
+  },
+  {
+    "fonte": "Filosofia Oriental",
+    "frase": "A mente vazia de ruído enxerga o que a mente cheia não vê."
+  },
+  {
+    "fonte": "Filosofia Oriental",
+    "frase": "Vencer a si mesmo é a maior das vitórias."
+  },
+  {
+    "fonte": "Filosofia Oriental",
+    "frase": "O caminho de mil passos começa sempre no primeiro."
+  },
+  {
+    "fonte": "Filosofia Oriental",
+    "frase": "A calmaria do guerreiro assusta mais que seus gritos."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "O excesso corrompe até a virtude mais nobre."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Controlar o impulso é a primeira forma de poder."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Quem domina os próprios vícios, domina qualquer batalha externa."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "Moderação não é fraqueza, é controle absoluto."
+  },
+  {
+    "fonte": "Código de Honra",
+    "frase": "O apetite descontrolado destrói mais impérios que qualquer inimigo."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Quem cai sete vezes, levanta oito."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A tempestade revela quem realmente construiu com solidez."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Toda queda carrega uma lição que a vitória não ensina."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Resistir no escuro é o que forja a luz."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "Quem nunca quebrou, nunca soube do que era feito."
+  },
+  {
+    "fonte": "Filosofia de Vida",
+    "frase": "A dor de hoje calibra a força de amanhã."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Sem propósito, disciplina vira apenas rotina vazia."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "O propósito claro transforma sacrifício em escolha, não em fardo."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Encontre o porquê, e o como se resolve sozinho."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Viver sem propósito é apenas sobreviver com passos extras."
+  },
+  {
+    "fonte": "Protocolo Forja",
+    "frase": "Propósito é a bússola que a motivação nunca consegue ser."
+  }
 ]
