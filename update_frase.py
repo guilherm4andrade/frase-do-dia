@@ -2,6 +2,7 @@ import json
 import os
 import random
 import sys
+import urllib.error
 import urllib.request
 
 from generate_card import generate
@@ -78,6 +79,10 @@ def main():
     try:
         status, body = update_notion_block(payload)
         print(f"OK [{status}] -> {quote['fonte']}")
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode("utf-8")
+        print(f"FALHA HTTP {e.code} -> {error_body}", file=sys.stderr)
+        sys.exit(1)
     except Exception as e:
         print(f"FALHA -> {e}", file=sys.stderr)
         sys.exit(1)
