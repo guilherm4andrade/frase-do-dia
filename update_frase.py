@@ -4,13 +4,17 @@ import random
 import sys
 import urllib.request
 
+from generate_card import generate
+
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
-BLOCK_ID = os.environ["BLOCK_ID"]  # ID do bloco heading_4 DENTRO do callout (não o callout em si)
+IMAGE_BLOCK_ID = os.environ["IMAGE_BLOCK_ID"]  # ID do bloco IMAGE dentro do callout
+IMAGE_PUBLIC_URL = os.environ["IMAGE_PUBLIC_URL"]  # URL pública do GitHub Pages (docs/frase.png)
 QUOTES_PATH = os.path.join(os.path.dirname(__file__), "quotes.json")
 STATE_PATH = os.path.join(os.path.dirname(__file__), "last_index.txt")
+IMAGE_OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "docs", "frase.png")
 
 NOTION_VERSION = "2022-06-28"
-API_URL = f"https://api.notion.com/v1/blocks/{BLOCK_ID}"
+API_URL = f"https://api.notion.com/v1/blocks/{IMAGE_BLOCK_ID}"
 
 
 def load_quotes():
@@ -35,16 +39,12 @@ def pick_quote(quotes):
     return quotes[new_index]
 
 
-def build_payload(quote):
-    text = f'{quote["fonte"]} - "{quote["frase"]}"'
+def build_payload(cache_key):
+    url = f"{IMAGE_PUBLIC_URL}?v={cache_key}"
     return {
-        "heading_4": {
-            "rich_text": [
-                {
-                    "type": "text",
-                    "text": {"content": text},
-                }
-            ]
+        "image": {
+            "type": "external",
+            "external": {"url": url},
         }
     }
 
@@ -65,9 +65,16 @@ def update_notion_block(payload):
 
 
 def main():
+    import datetime
+
     quotes = load_quotes()
     quote = pick_quote(quotes)
-    payload = build_payload(quote)
+
+    generate(quote["frase"], quote["fonte"], IMAGE_OUTPUT_PATH)
+
+    cache_key = datetime.date.today().isoformat()
+    payload = build_payload(cache_key)
+
     try:
         status, body = update_notion_block(payload)
         print(f"OK [{status}] -> {quote['fonte']}")

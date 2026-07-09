@@ -1,5 +1,9 @@
 # Frase do Dia — Automação Protocolo Forja
 
+## O que mudou (v2 — card visual)
+
+Em vez de texto puro, o robô agora **gera uma imagem** (estilo story: 1080x1920, gradiente preto/vermelho, frase centralizada) e publica no Notion como bloco de **imagem**.
+
 ## Setup (uma vez)
 
 1. **Criar integração Notion**
@@ -8,24 +12,28 @@
 2. **Compartilhar a página com a integração**
    - Na página "PROTOCOLO forja" → `...` → Connections → adicionar a integração criada.
 
-3. **Obter o BLOCK_ID do heading dentro do callout "FRASE DO DIA"**
-   - GET `https://api.notion.com/v1/blocks/{page_id}/children`
-   - Header: `Authorization: Bearer NOTION_TOKEN`, `Notion-Version: 2022-06-28`
-   - Localizar o bloco `callout` da seção FRASE DO DIA, pegar o `id` do bloco filho `heading_4` (dentro de `callout.children`, se não vier expandido, chamar `/blocks/{callout_id}/children`).
-   - Esse ID vai em `BLOCK_ID`.
+3. **No Notion: trocar o bloco de texto por um bloco de imagem vazio**
+   - Delete o heading_4 antigo dentro do callout FRASE DO DIA.
+   - No lugar, adicione um bloco de imagem qualquer (upload temporário de qualquer PNG só para criar o bloco).
+   - Rode o mesmo processo de `curl` usado antes para descer nos `children` até achar esse bloco `type: "image"` e pegar o `id` → isso é o `IMAGE_BLOCK_ID`.
 
-4. **Subir este repositório no GitHub**
-   - Criar repo privado, dar push nesta pasta.
+4. **Ativar GitHub Pages**
+   - Repo → Settings → Pages → Source: **Deploy from branch** → Branch: `main` → Folder: `/docs` → Save.
+   - URL pública final: `https://guilherm4andrade.github.io/frase-do-dia/frase.png`
+   - Esse é o `IMAGE_PUBLIC_URL` (sem o `?v=...`, o script adiciona sozinho).
 
 5. **Configurar Secrets no GitHub**
    - Repo → Settings → Secrets and variables → Actions:
      - `NOTION_TOKEN`
-     - `BLOCK_ID`
+     - `IMAGE_BLOCK_ID`
+     - `IMAGE_PUBLIC_URL`
 
 6. **Ativar o workflow**
-   - Actions já roda sozinho às 00:00 (Brasília). Testar manualmente via "Run workflow" (workflow_dispatch).
+   - Actions → "Frase do Dia" → Run workflow (teste manual).
 
 ## Manutenção
 
 - Adicionar novas frases: editar `quotes.json` (uma citação por fonte, curta, com atribuição).
+- Ajustar visual do card: editar `generate_card.py` (cores, fontes, layout).
 - `last_index.txt` evita repetição consecutiva — não editar manualmente.
+
