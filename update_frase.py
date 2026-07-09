@@ -44,7 +44,6 @@ def build_payload(cache_key):
     url = f"{IMAGE_PUBLIC_URL}?v={cache_key}"
     return {
         "image": {
-            "type": "external",
             "external": {"url": url},
         }
     }
