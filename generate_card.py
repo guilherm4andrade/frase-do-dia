@@ -2,7 +2,7 @@ import os
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
 
-W, H = 1080, 1920
+W, H = 1600, 900
 
 COLOR_BG = (17, 17, 17)       # preto quase puro, sólido
 COLOR_TEXT = (196, 30, 40)    # vermelho — cor da frase
@@ -57,7 +57,7 @@ def generate(quote_text, source_text, output_path):
 
     # frase principal, centralizada vertical e horizontalmente, em vermelho
     max_width = W - 160
-    max_height = 1400
+    max_height = 550
     font, lines, line_height = fit_font(draw, quote_text, max_width, max_height, FONT_BOLD)
     total_height = line_height * len(lines)
     y = (H - total_height) / 2
@@ -72,7 +72,7 @@ def generate(quote_text, source_text, output_path):
     source_font = ImageFont.truetype(FONT_REGULAR, 32)
     source_line = f"@protocolo.forja  ·  {source_text}"
     bbox = draw.textbbox((0, 0), source_line, font=source_font)
-    draw.text(((W - (bbox[2] - bbox[0])) / 2, H - 160), source_line, font=source_font, fill=COLOR_MUTED)
+    draw.text(((W - (bbox[2] - bbox[0])) / 2, H - 90), source_line, font=source_font, fill=COLOR_MUTED)
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     img.save(output_path, "PNG")
